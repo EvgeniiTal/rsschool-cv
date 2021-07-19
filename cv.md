@@ -14,3 +14,6 @@
 - Curiosity
 - Honesty
 
+# English Level
+
+At the moment my level is A2, but I'm constantly learning and I'm not going to stop until I can speak fluently.
