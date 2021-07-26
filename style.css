@@ -1,9 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .background-color{
-    background-color: #4C4C4C;
+  background-color: #4C4C4C;
 }
 
 .title {
@@ -13,25 +13,25 @@ height: 182.55px;
 left: 362px;
 top: 21px;
 }
-    .name {
-        font-family: Arial, sens-serif;
+  .name {
+      font-family: Arial, sens-serif;
 font-weight: 200;
 font-size: 52px;
 line-height: 35px;
 
 color: #E7ED3E;
-    }
-    .about-me { 
-        padding: 35px;
-        position:absolute;
-        background-color: #F2CDCC;
-        font-size:24px;
-        left:365px;
-        top:70px;
-    }
+  }
+  .about-me { 
+      padding: 35px;
+      position:absolute;
+      background-color: #F2CDCC;
+      font-size:24px;
+      left:365px;
+      top:70px;
+  }
 .contacts {
-    padding: 10px;
-    position: absolute;
+  padding: 10px;
+  position: absolute;
 width: 345px;
 height: 115px;
 top: 240px;
@@ -39,13 +39,13 @@ background-color: #FF0066;
 color: white;
 }
 .english-level {
-    width: 1466px;
-    padding: 35px;
-    position:absolute;
-    background-color: #F2EFA0;
-    font-size:24px;
-    top:360px;
+  width: 1466px;
+  padding: 35px;
+  position:absolute;
+  background-color: #F2EFA0;
+  font-size:24px;
+  top:360px;
 }
 .footer {
-    border-top: 2px solid white;
+  border-top: 2px solid white;
 }
