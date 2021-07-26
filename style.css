@@ -1,51 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-.background-color{
-    background-color: #4C4C4C;
+
+.background_color{
+  background-color: #4C4C4C;
 }
 
 .title {
-position: absolute;
-width: 350px;
-height: 182.55px;
-left: 362px;
-top: 21px;
+display: flex;
+justify-content: flex-start;
 }
-    .name {
-        font-family: Arial, sens-serif;
+  .name {
+      font-family: Arial, sens-serif;
 font-weight: 200;
 font-size: 52px;
 line-height: 35px;
 
 color: #E7ED3E;
-    }
-    .about-me { 
-        padding: 35px;
-        position:absolute;
-        background-color: #F2CDCC;
-        font-size:24px;
-        left:365px;
-        top:70px;
-    }
+  }
+  .about_me { 
+      padding: 35px;
+      position:absolute;
+      background-color: #F2CDCC;
+      font-size:24px;
+      left:365px;
+      top:70px;
+  }
 .contacts {
-    padding: 10px;
-    position: absolute;
+  padding: 10px;
+  position: absolute;
 width: 345px;
 height: 115px;
 top: 240px;
 background-color: #FF0066;
 color: white;
 }
-.english-level {
-    width: 1466px;
-    padding: 35px;
-    position:absolute;
-    background-color: #F2EFA0;
-    font-size:24px;
-    top:360px;
+.english_level {
+  width: 1466px;
+  padding: 35px;
+  position:absolute;
+  background-color: #F2EFA0;
+  font-size:24px;
+  top:360px;
 }
 .footer {
-    border-top: 2px solid white;
+  display: flex;
+  grid-template: auto auto / auto;
+  grid-template-areas: 'links' 'date';
+  border-top: 2px solid rgba(59, 59, 59, 0.7);
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__link {
+  display: inline;
+}
+
+.footer__link img {
+  height: 30px;
+}
+
+.footer__link--rss {
+  width: 50px;
+}
+
+.footer__date {
+  place-self: center;
+  font-weight: 700;
 }
